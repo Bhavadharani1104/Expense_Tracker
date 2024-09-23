@@ -6,7 +6,7 @@ import Login from './pages/Login';
 import './Splash.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import SplashGif from './Splash.gif';
-import { Container, Row, Col } from 'react-bootstrap'; // Import from react-bootstrap
+import { Container, Row, Col } from 'react-bootstrap'; 
 
 function SplashScreen() {
   return (

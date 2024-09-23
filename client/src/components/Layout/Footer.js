@@ -1,12 +1,12 @@
-import React from 'react'
+import React from 'react';
+import './Footer.css'; 
 
 const Footer = () => {
-    return(
+    return (
         <div className='bg-dark text-light p-4'>
-            <h6 className="text-center">All rights reserved &copy; FrameworkX</h6>
-
+            <h6 className="text-center animated-text">All rights reserved &copy; FrameworkX</h6>
         </div>
-    )
+    );
 }
 
-export default Footer
+export default Footer;

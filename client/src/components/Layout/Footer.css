@@ -1,0 +1,15 @@
+.animated-text {
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Define the fade-in animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px); /* Slight upward movement */
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* Move to original position */
+    }
+}
