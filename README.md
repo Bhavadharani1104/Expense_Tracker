@@ -27,7 +27,6 @@ Before running this application, make sure you have the following installed:
     ```bash
      cd Expense_Tracker
 3. *Install dependencies:*
-   For backend (Node.js/Express):
 
     ```bash
     npm install
