@@ -26,7 +26,7 @@ Before running this application, make sure you have the following installed:
 2. *Navigate to the project directory:*
     ```bash
      cd Expense_Tracker
-3. *Install dependencies for both backend and frontend:*
+3. *Install dependencies:*
    For backend (Node.js/Express):
 
     ```bash
