@@ -1,66 +1,69 @@
 {
-  
+  
   "name": "expense_tracker",
-  
+  
   "version": "1.0.0",
-  
+  
   "main": "server.js",
-  
+  
   "scripts": {
-  
-    
+  
+    
   "start": "node server.js",
-  
-    
+  
+    
   "server": "nodemon server.js",
-  
-    
+  
+    
   "client": "npm start --prefix client",
-  
-    
+  
+    
   "dev": "concurrently \"npm run server\" \"npm run client\" "
-  
+  
   },
-  
+  
   "keywords": [],
-  
+  
   "author": "Vishali",
-  
+  
   "license": "MIT",
-  
+  
   "description": "Expense Management System",
-  
+  
   "dependencies": {
-  
-    
+  
+    
   "antd": "^5.19.3",
-  
-    
+  
+    
+  "bootstrap": "^5.3.3",
+  
+    
   "colors": "^1.4.0",
-  
-    
+  
+    
   "concurrently": "^8.2.2",
-  
-    
+  
+    
   "cors": "^2.8.5",
-  
-    
+  
+    
   "dotenv": "^16.4.5",
-  
-    
+  
+    
   "express": "^4.19.2",
-  
-    
+  
+    
   "moment": "^2.30.1",
-  
-    
+  
+    
   "mongoose": "^8.5.1",
-  
-    
+  
+    
   "morgan": "^1.10.0",
-  
-    
+  
+    
   "react-bootstrap": "^2.10.4"
-  
+  
   }
 }
